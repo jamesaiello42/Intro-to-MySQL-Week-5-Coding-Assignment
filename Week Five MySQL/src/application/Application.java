@@ -5,14 +5,12 @@ import java.sql.SQLException;
 public class Application {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated m
+		// Create a menu for user to make a choice and begin the program
 		Menu menu = new Menu();
 		try {
 			menu.start();
 		} catch (SQLException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 	}
-
 }
